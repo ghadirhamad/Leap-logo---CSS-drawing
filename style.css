@@ -1,0 +1,34 @@
+html,body{
+  padding:0;
+  margin:0;
+  
+  }
+  .container {
+    width: 340px;
+    height: 200px;
+    background: linear-gradient(180deg, #3BC2E1 0%, #4D58A3 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   #logo{
+    width: 65px;
+    height: 93px;
+    background-color: #ffffff;
+    margin-top: 300px;
+    margin-right: 60px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    clip-path: polygon(33% 14%, 51% 15%, 51% 75%, 100% 75%, 100% 83%, 81% 96%, 14% 96%, 14% 28%);
+   }
+
+   #triangle{
+    width: 25px;
+    height: 19px;
+    background-color:#ffffff;
+    margin-top: -47px;
+    margin-right: 42px;
+    position: absolute;
+    clip-path: polygon(25% 35%, 25% 99%, 70% 35%);
+   }
